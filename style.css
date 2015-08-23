@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,300,600,700,600italic,700italic,400italic,300italic);
+@import url(http://fonts.googleapis.com/css?family=Anton);
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -46,20 +50,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,300,600,700,600italic,700italic,400italic,300italic);
 /*-----------------------------------------------------
 font-family: 'Josefin Sans', sans-serif;
+font-family: 'Anton', sans-serif;
 -----------------------------------------------------*/
 /*------------------------------------------------
 body
 ------------------------------------------------*/
 body {
-  background: #FCF141;
+  background: #f3e76e;
   font-family: 'Josefin Sans', sans-serif;
-  color: #1d1d1d;
+  color: #DB4535;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-weight: 700;
+	font-family: 'Anton', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 1.25rem; /* 20/16 */
@@ -75,13 +79,13 @@ h5 {
 	font-size: 1.125rem; /* 18/16 */
 }
 p{
-	font-size: 1rem;
-	font-weight: 200;
+	font-size: 1.125rem; /* 18/16 */
+	font-weight: 400;
 	line-height: 1.125rem; /* 18/16 */
 	margin-bottom: 1.25rem; /* 20/16 */
 }
 a {
-	color: #1d1d1d;
+	color: #DB4535;
 	font-style: italic;
 	text-decoration: none;
 }
@@ -97,14 +101,15 @@ a:hover {
   align-items: center;
 }
 .intro-box {
-  background: #fff;
+  background: none;
   border-radius: 20px;
   width: 60vw;
   padding: 2%;
   box-sizing: border-box;
+	transform: rotate(-2deg);
 }
 .text-box {
-  border: 5px dashed #1d1d1d;
+  border: 5px dashed #DB4535;
   border-radius: 20px;
   height: 98%;
   padding: 10px;
