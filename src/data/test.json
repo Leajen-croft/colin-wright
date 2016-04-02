@@ -7,63 +7,63 @@
 	"photoStackData" : [
 		{
 			"imageId": "01",
-			"filePath": "image_assets/photostack/photostack_(1).jpg"
+			"filePath": "image_assets/photostack/photo_(1).jpg"
 		},
 		{
 			"imageId": "02",
-			"filePath": "image_assets/photostack/photostack_(2).jpg"
+			"filePath": "image_assets/photostack/photo_(2).jpg"
 		},
 		{
 			"imageId": "03",
-			"filePath": "image_assets/photostack/photostack_(3).jpg"
+			"filePath": "image_assets/photostack/photo_(3).jpg"
 		},
 		{
 			"imageId": "04",
-			"filePath": "image_assets/photostack/photostack_(4).jpg"
+			"filePath": "image_assets/photostack/photo_(4).jpg"
 		},
 		{
 			"imageId": "05",
-			"filePath": "image_assets/photostack/photostack_(5).jpg"
+			"filePath": "image_assets/photostack/photo_(5).jpg"
 		},
 		{
 			"imageId": "06",
-			"filePath": "image_assets/photostack/photostack_(6).jpg"
+			"filePath": "image_assets/photostack/photo_(6).jpg"
 		},
 		{
 			"imageId": "07",
-			"filePath": "image_assets/photostack/photostack_(7).jpg"
+			"filePath": "image_assets/photostack/photo_(7).jpg"
 		},
 		{
 			"imageId": "08",
-			"filePath": "image_assets/photostack/photostack_(8).jpg"
+			"filePath": "image_assets/photostack/photo_(8).jpg"
 		},
 		{
 			"imageId": "09",
-			"filePath": "image_assets/photostack/photostack_(9).jpg"
+			"filePath": "image_assets/photostack/photo_(9).jpg"
 		},
 		{
 			"imageId": "10",
-			"filePath": "image_assets/photostack/photostack_(10).jpg"
+			"filePath": "image_assets/photostack/photo_(10).jpg"
 		},
 		{
 			"imageId": "11",
-			"filePath": "image_assets/photostack/photostack_(11).jpg"
+			"filePath": "image_assets/photostack/photo_(11).jpg"
 		},
 		{
 			"imageId": "12",
-			"filePath": "image_assets/photostack/photostack_(12).jpg"
+			"filePath": "image_assets/photostack/photo_(12).jpg"
 		},
 		{
 			"imageId": "13",
-			"filePath": "image_assets/photostack/photostack_(13).jpg"
+			"filePath": "image_assets/photostack/photo_(13).jpg"
 		},
 		{
 			"imageId": "14",
-			"filePath": "image_assets/photostack/photostack_(14).jpg"
+			"filePath": "image_assets/photostack/photo_(14).jpg"
 		},
 		{
 			"imageId": "15",
-			"filePath": "image_assets/photostack/photostack_(15).jpg"
+			"filePath": "image_assets/photostack/photo_(15).jpg"
 		}
 	]
 }
