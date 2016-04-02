@@ -9,7 +9,7 @@ $('.gallery-item a').magnificPopup({
 
 $(function() {
     $("img.lazy").lazyload({
-      
+      threshold : 300,
       failure_limit : 1000
     });
 });
