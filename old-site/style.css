@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,300,600,700,600italic,700italic,400italic,300italic);
+@import url(http://fonts.googleapis.com/css?family=Anton);
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*-----------------------------------------------------
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Anton', sans-serif;
+-----------------------------------------------------*/
+/*------------------------------------------------
+body
+------------------------------------------------*/
+body {
+  background: #f3e76e;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #DB4535;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 1.25rem; /* 20/16 */
+}
+h1 {
+  font-size: 2rem;
+	margin: 0.625rem; /* 10/16 */
+}
+h2 {
+  font-size: 1.5rem; /* 24/16 */
+}
+h5 {
+	font-size: 1.125rem; /* 18/16 */
+}
+p{
+	font-size: 1.125rem; /* 18/16 */
+	font-weight: 400;
+	line-height: 1.125rem; /* 18/16 */
+	margin-bottom: 1.25rem; /* 20/16 */
+}
+a {
+	color: #DB4535;
+	font-style: italic;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.inner-wrap {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.intro-box {
+  background: none;
+  border-radius: 20px;
+  width: 60vw;
+  padding: 2%;
+  box-sizing: border-box;
+	transform: rotate(-2deg);
+}
+.text-box {
+  border: 5px dashed #DB4535;
+  border-radius: 20px;
+  height: 98%;
+  padding: 10px;
+  box-sizing: border-box;
+}
