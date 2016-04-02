@@ -1,0 +1,29 @@
+extends ./templates/default.jade
+block title
+  title Home
+block content
+  section.hero
+  section.row.poem
+    div.small-11.small-centered.text-center.columns.large-body
+      div.large-body__inner.clearfix
+        div.large-body__top
+        :markdown-it
+          My life is over, my body spent
+          C'est la vie
+
+          My love for my family has always been intact
+
+          Material matters were absent at my beginning also at the end of my journey
+
+          My deep unshakable love for my family was always there my family was
+          always there my mate Kathy is special, she is my world I thank my maker
+          for my life
+
+          I ask those close to me to celebrate my life
+        div.large-body__bottom
+  section#photostack-1.photostack.photostack-start
+    div
+      - each val in photoStackData
+          figure
+            img(src="#{val.filePath}")
+            figcaption

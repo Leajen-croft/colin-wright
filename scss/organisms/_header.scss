@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  svg {
+    width: 100%;
+    height: 150px;
+  }
+  .header__side {
+    height: 60px;
+    border: 5px solid $black;
+    border-left: none;
+    border-right: none;
+  }
+}

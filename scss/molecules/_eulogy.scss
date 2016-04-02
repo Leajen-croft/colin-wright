@@ -1,0 +1,8 @@
+.eulogy {
+  border: 30px double $white;
+  margin: rem-calc(20 0);
+  .eulogy__inner {
+    padding: rem-calc(15);
+    background: $white;
+  }
+}

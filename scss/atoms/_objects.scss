@@ -1,0 +1,21 @@
+footer .button {
+  background: $white;
+  color: black;
+  width: 100%;
+  font-size: rem-calc(20);
+  font-weight: 700;
+  border: 3px solid $white;
+  @include breakpoint(medium up) {
+    width: 50%;
+    float: right;
+  }
+  &:hover {
+    background: none;
+    color: $white;
+  }
+}
+.form__message {
+  textarea {
+    min-height: 200px;
+  }
+}

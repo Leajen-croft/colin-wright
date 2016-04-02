@@ -1,0 +1,10 @@
+.header__side {
+  display: flex;
+  align-items: center;
+  &.header__side--left {
+    justify-content: flex-end;
+  }
+  &.header__side--right {
+    justify-content: flex-start;
+  }
+}

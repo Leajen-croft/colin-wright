@@ -1,0 +1,21 @@
+.photostack {
+  background: darken(#FED68A, 5%);
+}
+.photostack nav span {
+	position: relative;
+	display: inline-block;
+	margin: 0 5px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background: transparentize($crimson,0.8);
+  border: 2px solid $crimson;
+	border-radius: 50%;
+	text-align: center;
+	transition: transform 0.6s ease-in-out, background 0.3s;
+	transform: scale(0.48);
+}
+#photostack-1 nav span.current {
+  background: darken($crimson, 5%);
+  transform: scale(0.61);
+}
