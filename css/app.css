@@ -3262,7 +3262,7 @@ table.hover tr:nth-of-type(even):hover {
   border-radius: 0;
   margin-bottom: 1rem; }
   .thumbnail:hover, .thumbnail:focus {
-    box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(10, 10, 10, 0.5); }
 
 .title-bar {
   background: #0a0a0a;
@@ -4412,6 +4412,18 @@ header {
   -webkit-transform: scale(0.61);
       -ms-transform: scale(0.61);
           transform: scale(0.61); }
+
+@media screen and (min-width: 40em) {
+  .gallery {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2; } }
+
+@media screen and (min-width: 64em) {
+  .gallery {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3; } }
 
 footer {
   padding: 1.875rem 0;

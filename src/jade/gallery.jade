@@ -2,5 +2,9 @@ extends ./templates/default.jade
 block title
   title Gallery
 block content
-  :markdown-it
-    ## Coming soon ##
+ section.gallery.row
+    div.small-12.columns
+      - each pic in imageData
+          div.gallery-item
+            a(href="#{pic.filePath}")
+              img(class="thumbnail" src="#{pic.filePath}")

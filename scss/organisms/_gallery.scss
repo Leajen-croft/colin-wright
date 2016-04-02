@@ -1,0 +1,8 @@
+.gallery {
+  @include breakpoint(medium up) {
+    column-count: 2;
+  }
+  @include breakpoint(large up) {
+    column-count: 3;
+  }
+}
