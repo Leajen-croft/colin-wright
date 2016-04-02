@@ -4334,6 +4334,11 @@ footer .button {
 .form__message textarea {
   min-height: 200px; }
 
+img {
+  width: 100%;
+  height: auto;
+  max-height: 100%; }
+
 .poem {
   padding: 1.875rem 0; }
 

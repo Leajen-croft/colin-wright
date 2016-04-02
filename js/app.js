@@ -6,3 +6,10 @@ $('.gallery-item a').magnificPopup({
     enabled:true
   }
 });
+
+$(function() {
+    $("img.lazy").lazyload({
+      
+      failure_limit : 1000
+    });
+});
