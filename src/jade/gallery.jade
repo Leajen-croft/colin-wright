@@ -3,8 +3,8 @@ block title
   title Gallery
 block content
  section.gallery.row
-    div.small-12.columns
+    div.gallery__grid(data-masonry='{ "itemSelector": ".gallery__item", "columnWidth": ".gallery__item", "percentPosition": "true" }')
       - each pic in imageData
-          div.gallery-item
+          div.gallery__item.small-12.medium-6.large-4.columns
             a(href="#{pic.filePath}")
               img(class="thumbnail" src="#{pic.mini}")

@@ -1,8 +1,12 @@
-.gallery {
-  @include breakpoint(medium up) {
-    column-count: 2;
-  }
-  @include breakpoint(large up) {
-    column-count: 3;
-  }
-}
+// .gallery {
+//   @include breakpoint(medium up) {
+//     column-count: 2;
+//   }
+//   @include breakpoint(large up) {
+//     column-count: 3;
+//   }
+// }
+// .gallery__item {
+//   height: 300px;
+//
+// }
