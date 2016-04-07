@@ -13,3 +13,12 @@ $('.gallery__item a').magnificPopup({
 //       threshold : 300
 //     });
 // });
+$(function() {
+  $('.gallery__grid').masonry({
+    // set itemSelector so .grid-sizer is not used in layout
+    itemSelector: '.gallery__item',
+    // use element for option
+    columnWidth: '.gallery__item',
+    percentPosition: true
+  })
+});
