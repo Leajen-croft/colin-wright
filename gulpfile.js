@@ -27,6 +27,17 @@ gulp.task('templates', function() {
     .pipe($.jade())
     .pipe(gulp.dest('./'));
 });
+gulp.task('image', function () {
+  gulp.src('./image_assets/*.jpg')
+    .pipe($.imageResize({
+      width : 595
+    }))
+    .pipe($.image({
+      jpegRecompress: true,
+      jpegoptim: true
+    }))
+    .pipe(gulp.dest('./image_assets/compressed'));
+});
 gulp.task('default', ['sass', 'templates'], function() {
   gulp.watch(['scss/**/*.scss'], ['sass']);
   gulp.watch(['src/jade/*.jade', 'src/data/*.json'], ['templates']);
